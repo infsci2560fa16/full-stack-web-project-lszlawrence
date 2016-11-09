@@ -24,7 +24,7 @@ module.exports = function(grunt) {
       files: ['Gruntfile.js', '<%= srcFolder %>/public/js/**/*.js', '<%= testFolder %>/public/js/**/*.js'],
       options: {
         globals: {
-          jQuery: true,
+          jQuery:false,
           console: true,
           module: true
         }
