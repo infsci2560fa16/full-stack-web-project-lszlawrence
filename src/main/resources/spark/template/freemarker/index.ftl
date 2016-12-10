@@ -37,9 +37,8 @@
                     <img class="home_slides_img" src="img/1.jpg" alt="slides1">
                     <img class="home_slides_img" src="img/2.jpg" alt="slides2">
                     <img class="home_slides_img" src="img/3.jpeg" alt="slides2">
-                    <div class="home_content">
+                    <div id = "welcome-message" class="home_content">
                         <h1>Hello! Welcome to the Picilter!</h1>
-                        <h2>Please <a href="login.html">login!</a></h2>
 
                     </div>
                     <script src="js/myScript.js"></script>

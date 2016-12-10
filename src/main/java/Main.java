@@ -7,12 +7,11 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-import static spark.Spark.get;
-import static spark.Spark.staticFileLocation;
-
+import static spark.Spark.*;
 public class Main {
 
   public static void main(String[] args) {
@@ -89,5 +88,60 @@ public class Main {
     get("/", (request, response) -> {
         return new ModelAndView(new HashMap(), "index.ftl");
     }, new FreeMarkerEngine());
+
+
+      //login action
+    post("/login", (request, response)->{
+        String email = request.queryParams("email");
+        String pwd = request.queryParams("pwd");
+        HashMap<String, Object> attribute = new HashMap<>();
+        Connection conn = null;
+        try{
+            conn = DatabaseUrl.extract().getConnection();
+            Statement stmt = conn.createStatement();
+            String select = "SELECT * FROM users WHERE email = "+ email+";";
+            ResultSet resultSet = stmt.executeQuery(select);
+            String pass = resultSet.getString("password");
+            if(pass.equals(pwd)) {
+                int id = resultSet.getInt("uid");
+                response.status(200);
+                response.redirect("/:"+id);
+            }else{
+                attribute.put("message", "wrong credentials");
+                return new ModelAndView(attribute, "error.ftl");
+            }
+            return null;
+            } catch (Exception e){
+
+            attribute.put("message", e);
+            return new ModelAndView(attribute, "error.ftl");
+        }
+
+
+    }, new FreeMarkerEngine());
+
+
+    //get current users
+     get("/:id", (request, response) -> {
+         Connection conn = null;
+         response.type("application/json");
+         ArrayList<Users> results = new ArrayList<Users>();
+         Integer id = Integer.parseInt(request.params(":id"));
+         try{
+             conn = DatabaseUrl.extract().getConnection();
+             Statement stmt = conn.createStatement();
+             String select = "SELECT * FROM users where uid = " + id;
+             ResultSet resultSet = stmt.executeQuery(select);
+             results.add(new Users(resultSet.getString("email"), resultSet.getString("password"), resultSet.getString("name")));
+             return results;
+         }catch (Exception e){
+             return e;
+         }
+     }, gson::toJson);
+
+      //get xml all users
+
+
+
   }
 }

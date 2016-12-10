@@ -16,3 +16,15 @@ function carousel() {
     setTimeout(carousel, 2000); // Change image every 2 seconds
 }
 
+function welcome(){
+    $.ajax({
+        url: "/",
+        success: function (result) {
+            var data = JSON.parse(result);
+            $(data).each(function(i, val){
+                $("#welcome-message").append("<h2>" + val.name +  " " + "</h2>");
+            });
+
+        }});
+}
+

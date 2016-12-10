@@ -31,5 +31,6 @@
     <orderEntry type="library" name="Maven: org.postgresql:postgresql:9.4-1201-jdbc4" level="project" />
     <orderEntry type="library" name="Maven: com.heroku.sdk:heroku-jdbc:0.1.1" level="project" />
     <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.7" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-simple:1.6.2" level="project" />
   </component>
 </module>
