@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95f8c24c-4c2e-4ab6-bf31-d5959b842e4a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/image.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/public/json/image" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/spark/template/freemarker/discover.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.iml" afterPath="$PROJECT_DIR$/main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Main.java" afterPath="$PROJECT_DIR$/src/main/java/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/public/login.html" afterPath="$PROJECT_DIR$/src/main/resources/public/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spark/template/freemarker/header.ftl" afterPath="$PROJECT_DIR$/src/main/resources/spark/template/freemarker/header.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spark/template/freemarker/index.ftl" afterPath="$PROJECT_DIR$/src/main/resources/spark/template/freemarker/index.ftl" />
     </list>
     <ignored path="full-stack-web-project-lszlawrence.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,15 +37,15 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="93" column="63" selection-start-line="93" selection-start-column="63" selection-end-line="93" selection-end-column="63" />
+            <state relative-caret-position="184">
+              <caret line="76" column="4" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1481400053000" expanded="true" signature="1135:1184" ph="CREATE TABLE... IF" />
-                <marker date="1481400053000" expanded="true" signature="1216:1248" ph="INSERT INTO ticks... " />
-                <marker date="1481400053000" expanded="true" signature="1294:1316" ph="SELECT tick ticks" />
-                <marker date="1481400053000" expanded="true" signature="2186:2218" ph="INSERT INTO users... " />
-                <marker date="1481400053000" expanded="true" signature="2735:2760" ph="SELECT * FRO... photos" />
+                <marker date="1481400480000" expanded="true" signature="1135:1184" ph="CREATE TABLE... IF" />
+                <marker date="1481400480000" expanded="true" signature="1216:1248" ph="INSERT INTO ticks... " />
+                <marker date="1481400480000" expanded="true" signature="1294:1316" ph="SELECT tick ticks" />
+                <marker date="1481400480000" expanded="true" signature="2186:2218" ph="INSERT INTO users... " />
+                <marker date="1481400480000" expanded="true" signature="2821:2846" ph="SELECT * FRO... photos" />
               </folding>
             </state>
           </provider>
@@ -949,12 +938,12 @@
       <workItem from="1481241297568" duration="414000" />
       <workItem from="1481241841508" duration="334000" />
       <workItem from="1481243918382" duration="6099000" />
-      <workItem from="1481266037532" duration="18231000" />
+      <workItem from="1481266037532" duration="18673000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72789000" />
+    <option name="totallyTimeSpent" value="73231000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-157" width="1913" height="1021" extended-state="0" />
@@ -965,11 +954,11 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.49473685" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32456142" sideWeight="0.5446942" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32456142" sideWeight="0.5467852" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32785088" sideWeight="0.4898066" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32785088" sideWeight="0.48771563" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32456142" sideWeight="0.4553058" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32456142" sideWeight="0.45321485" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22268687" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1021,11 +1010,11 @@
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1481400053000" expanded="true" signature="1135:1184" ph="CREATE TABLE... IF" />
-            <marker date="1481400053000" expanded="true" signature="1216:1248" ph="INSERT INTO ticks... " />
-            <marker date="1481400053000" expanded="true" signature="1294:1316" ph="SELECT tick ticks" />
-            <marker date="1481400053000" expanded="true" signature="2186:2218" ph="INSERT INTO users... " />
-            <marker date="1481400053000" expanded="true" signature="2735:2760" ph="SELECT * FRO... photos" />
+            <marker date="1481400480000" expanded="true" signature="1135:1184" ph="CREATE TABLE... IF" />
+            <marker date="1481400480000" expanded="true" signature="1216:1248" ph="INSERT INTO ticks... " />
+            <marker date="1481400480000" expanded="true" signature="1294:1316" ph="SELECT tick ticks" />
+            <marker date="1481400480000" expanded="true" signature="2186:2218" ph="INSERT INTO users... " />
+            <marker date="1481400480000" expanded="true" signature="2821:2846" ph="SELECT * FRO... photos" />
           </folding>
         </state>
       </provider>
@@ -1058,11 +1047,11 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1481400053000" expanded="true" signature="1135:1184" ph="CREATE TABLE... IF" />
-            <marker date="1481400053000" expanded="true" signature="1216:1248" ph="INSERT INTO ticks... " />
-            <marker date="1481400053000" expanded="true" signature="1294:1316" ph="SELECT tick ticks" />
-            <marker date="1481400053000" expanded="true" signature="2186:2218" ph="INSERT INTO users... " />
-            <marker date="1481400053000" expanded="true" signature="2735:2760" ph="SELECT * FRO... photos" />
+            <marker date="1481400480000" expanded="true" signature="1135:1184" ph="CREATE TABLE... IF" />
+            <marker date="1481400480000" expanded="true" signature="1216:1248" ph="INSERT INTO ticks... " />
+            <marker date="1481400480000" expanded="true" signature="1294:1316" ph="SELECT tick ticks" />
+            <marker date="1481400480000" expanded="true" signature="2186:2218" ph="INSERT INTO users... " />
+            <marker date="1481400480000" expanded="true" signature="2821:2846" ph="SELECT * FRO... photos" />
           </folding>
         </state>
       </provider>
@@ -1401,15 +1390,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="93" column="63" selection-start-line="93" selection-start-column="63" selection-end-line="93" selection-end-column="63" />
+        <state relative-caret-position="184">
+          <caret line="76" column="4" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1481400053000" expanded="true" signature="1135:1184" ph="CREATE TABLE... IF" />
-            <marker date="1481400053000" expanded="true" signature="1216:1248" ph="INSERT INTO ticks... " />
-            <marker date="1481400053000" expanded="true" signature="1294:1316" ph="SELECT tick ticks" />
-            <marker date="1481400053000" expanded="true" signature="2186:2218" ph="INSERT INTO users... " />
-            <marker date="1481400053000" expanded="true" signature="2735:2760" ph="SELECT * FRO... photos" />
+            <marker date="1481400480000" expanded="true" signature="1135:1184" ph="CREATE TABLE... IF" />
+            <marker date="1481400480000" expanded="true" signature="1216:1248" ph="INSERT INTO ticks... " />
+            <marker date="1481400480000" expanded="true" signature="1294:1316" ph="SELECT tick ticks" />
+            <marker date="1481400480000" expanded="true" signature="2186:2218" ph="INSERT INTO users... " />
+            <marker date="1481400480000" expanded="true" signature="2821:2846" ph="SELECT * FRO... photos" />
           </folding>
         </state>
       </provider>
