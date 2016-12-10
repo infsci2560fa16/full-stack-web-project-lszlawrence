@@ -56,21 +56,6 @@ public class Main {
       }
     }, new FreeMarkerEngine());
 
-     //registration
-    post("/login", (request, response)-> {
-      Map<String, Object> attribute= new HashMap<>();
-      Connection connection = null;
-      try {
-        connection = DatabaseUrl.extract().getConnection();
-        Statement stmt = connection.createStatement();
-          stmt.executeUpdate("INSERT INTO users VALIES (now())");
-      }catch (Exception e) {
-          attribute.put("message", "There was an error: " + e);
-          return new ModelAndView(attribute, "error.ftl");
-      } finally {
-          if(connection != null) try{connection.close();} catch(SQLException e){}
-      }
-
     });*/
 
     get("/discover", (request, response) -> {
@@ -100,5 +85,9 @@ public class Main {
         }
     }, new FreeMarkerEngine());
 
+
+    get("/", (request, response) -> {
+        return new ModelAndView(new HashMap(), "index.ftl");
+    }, new FreeMarkerEngine());
   }
 }
