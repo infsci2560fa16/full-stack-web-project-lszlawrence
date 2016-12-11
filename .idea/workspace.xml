@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95f8c24c-4c2e-4ab6-bf31-d5959b842e4a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/public/js/myScript.js" afterPath="$PROJECT_DIR$/src/main/resources/public/js/myScript.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Main.java" afterPath="$PROJECT_DIR$/src/main/java/Main.java" />
     </list>
     <ignored path="full-stack-web-project-lszlawrence.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,25 +34,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="76" column="23" selection-start-line="76" selection-start-column="23" selection-end-line="76" selection-end-column="23" />
+            <state relative-caret-position="259">
+              <caret line="79" column="20" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2665#2681#0" expanded="true" />
-                <element signature="e#4451#4458#0" expanded="true" />
-                <marker date="1481424852000" expanded="true" signature="958:983" ph="SELECT * FRO... photos" />
-                <marker date="1481424852000" expanded="true" signature="3378:3411" ph="SELECT * FRO... users" />
-                <marker date="1481424852000" expanded="true" signature="3378:3426" ph="SELECT * FRO... users" />
-                <marker date="1481424852000" expanded="true" signature="4698:4730" ph="SELECT * FRO... users" />
+                <element signature="e#2628#2644#0" expanded="true" />
+                <element signature="e#4487#4494#0" expanded="true" />
+                <marker date="1481425194000" expanded="true" signature="958:983" ph="SELECT * FRO... photos" />
+                <marker date="1481425194000" expanded="true" signature="3414:3447" ph="SELECT * FRO... users" />
+                <marker date="1481425194000" expanded="true" signature="3414:3462" ph="SELECT * FRO... users" />
+                <marker date="1481425194000" expanded="true" signature="4734:4766" ph="SELECT * FRO... users" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myScript.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="myScript.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/myScript.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="416">
@@ -160,8 +161,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/spark/template/freemarker/discover.ftl" />
         <option value="$PROJECT_DIR$/src/main/resources/public/login.html" />
         <option value="$PROJECT_DIR$/src/main/resources/spark/template/freemarker/index.ftl" />
-        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/resources/public/js/myScript.js" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
       </list>
     </option>
   </component>
@@ -988,12 +989,12 @@
       <workItem from="1481241297568" duration="414000" />
       <workItem from="1481241841508" duration="334000" />
       <workItem from="1481243918382" duration="6099000" />
-      <workItem from="1481266037532" duration="37709000" />
+      <workItem from="1481266037532" duration="37905000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92267000" />
+    <option name="totallyTimeSpent" value="92463000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="29" width="1393" height="842" extended-state="0" />
@@ -1431,27 +1432,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="76" column="23" selection-start-line="76" selection-start-column="23" selection-end-line="76" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2665#2681#0" expanded="true" />
-            <element signature="e#4451#4458#0" expanded="true" />
-            <marker date="1481424852000" expanded="true" signature="958:983" ph="SELECT * FRO... photos" />
-            <marker date="1481424852000" expanded="true" signature="3378:3411" ph="SELECT * FRO... users" />
-            <marker date="1481424852000" expanded="true" signature="3378:3426" ph="SELECT * FRO... users" />
-            <marker date="1481424852000" expanded="true" signature="4698:4730" ph="SELECT * FRO... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/myScript.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
           <caret line="47" column="3" selection-start-line="47" selection-start-column="3" selection-end-line="47" selection-end-column="3" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="79" column="20" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2628#2644#0" expanded="true" />
+            <element signature="e#4487#4494#0" expanded="true" />
+            <marker date="1481425194000" expanded="true" signature="958:983" ph="SELECT * FRO... photos" />
+            <marker date="1481425194000" expanded="true" signature="3414:3447" ph="SELECT * FRO... users" />
+            <marker date="1481425194000" expanded="true" signature="3414:3462" ph="SELECT * FRO... users" />
+            <marker date="1481425194000" expanded="true" signature="4734:4766" ph="SELECT * FRO... users" />
+          </folding>
         </state>
       </provider>
     </entry>

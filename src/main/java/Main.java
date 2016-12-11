@@ -71,12 +71,13 @@ public class Main {
         get("/index", (request, response) -> {
             Session session = request.session(true);
             String email = session.attribute("email");
+            HashMap<String, String> attrubute = new HashMap<String, String>();
             if (email != null) {
-                HashMap<String, String> attrubute = new HashMap<String, String>();
                 attrubute.put("email", email);
-                return new ModelAndView(attrubute, "index.ftl");
+            }else {
+                attrubute.put("email", "Guest");
             }
-            return null;
+            return new ModelAndView(attrubute, "index.ftl");
         }, new FreeMarkerEngine());
 
         //login action
