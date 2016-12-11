@@ -33,7 +33,9 @@ public class Main {
             Statement stmt = conn.createStatement();
             ResultSet resultSet = stmt.executeQuery(selectQuery);
 
-            for (int i = 0; i < 8; i++) {
+            int i=0;
+            while (resultSet.next()){
+
                 String path = resultSet.getString("p_path");
                 String div = "<div id=\"image" + i + "\" class=\"col-sm-6 col-md-3 img\">\n" +
                         "                            <a href=\"#\" class=\"thumbnail\">\n" +
@@ -41,7 +43,12 @@ public class Main {
                         "                            </a>\n" +
                         "                        </div>";
                 attribute.put("image" + i, div);
+                i++;
             }
+//
+//            for (int i = 0; i < 8; i++) {
+//
+//            }
             return new ModelAndView(attribute, "discover.ftl");
         } catch(Exception e) {
             attribute.put("message", e);
