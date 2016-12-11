@@ -30,8 +30,9 @@ function welcome(){
 
 $(document).ready(function () {
     $("#user-login").click(function () {
-        $.post({
+        $.ajax({
             url:'login',
+            type:'POST',
             dataType:'json',
             data:{
                 email:$("#name").val(),
