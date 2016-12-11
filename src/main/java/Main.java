@@ -73,16 +73,18 @@ public class Main {
         try{
             conn = DatabaseUrl.extract().getConnection();
             Statement stmt = conn.createStatement();
-            String select = "SELECT * FROM users WHERE email = "+ email+";";
+            String select = "SELECT * FROM users WHERE email ='"+ email+"';";
             ResultSet resultSet = stmt.executeQuery(select);
-            String pass = resultSet.getString("password");
-            if(pass.equals(pwd)) {
-                int id = resultSet.getInt("uid");
-                response.status(200);
-                response.redirect("/:"+id);
-            }else{
-                attribute.put("message", "wrong credentials");
-                return new ModelAndView(attribute, "error.ftl");
+            while(resultSet.next()) {
+                String pass = resultSet.getString("password");
+                if(pass.equals(pwd)) {
+                    int id = resultSet.getInt("uid");
+                    response.status(200);
+                    response.redirect("/:"+id);
+                }else{
+                    attribute.put("message", "wrong credentials");
+                    return new ModelAndView(attribute, "error.ftl");
+                }
             }
             return null;
             } catch (Exception e){
