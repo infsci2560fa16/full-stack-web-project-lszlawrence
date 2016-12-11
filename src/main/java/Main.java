@@ -65,7 +65,9 @@ public class Main {
 
 
         get("/", (request, response) -> {
-            return new ModelAndView(new HashMap(), "index.ftl");
+            HashMap<String, String> attrubute = new HashMap<String, String>();
+            attrubute.put("email", "Guest");
+            return new ModelAndView(attrubute, "index.ftl");
         }, new FreeMarkerEngine());
 
         get("/index", (request, response) -> {
@@ -74,7 +76,7 @@ public class Main {
             HashMap<String, String> attrubute = new HashMap<String, String>();
             if (email != null) {
                 attrubute.put("email", email);
-            }else {
+            } else {
                 attrubute.put("email", "Guest");
             }
             return new ModelAndView(attrubute, "index.ftl");
