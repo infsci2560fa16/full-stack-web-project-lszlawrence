@@ -39,7 +39,7 @@ public class Main {
                 String path = resultSet.getString("p_path");
                 String div = "<div id=\"image" + i + "\" class=\"col-sm-6 col-md-3 img\">\n" +
                         "                            <a href=\"#\" class=\"thumbnail\">\n" +
-                        "                                <img src=" + path + "alt=\"3.jpeg\">\n" +
+                        "                                <img src=\"" + path + "\" alt=\"3.jpeg\">\n" +
                         "                            </a>\n" +
                         "                        </div>";
                 attribute.put("image" + i, div);
