@@ -106,7 +106,9 @@ public class Main {
              Statement stmt = conn.createStatement();
              String select = "SELECT * FROM users where uid = " + id;
              ResultSet resultSet = stmt.executeQuery(select);
-             results.add(new Users(resultSet.getString("email"), resultSet.getString("password"), resultSet.getString("name")));
+             while(resultSet.next()) {
+                 results.add(new Users(resultSet.getString("email"), resultSet.getString("password"), resultSet.getString("name")));
+             }
              return results;
          }catch (Exception e){
              return e;
