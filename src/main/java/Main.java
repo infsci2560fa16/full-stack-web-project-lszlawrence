@@ -105,7 +105,6 @@ public class Main {
                         attribute.put("message", "wrong credentials");
                     }
                 }
-                return null;
             } catch (Exception e) {
                 attribute.put("message", e);
 //                return new ModelAndView(attribute, "error.ftl");
