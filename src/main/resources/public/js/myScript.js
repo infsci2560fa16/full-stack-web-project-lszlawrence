@@ -28,3 +28,22 @@ function welcome(){
         }});
 }
 
+$(document).ready(function () {
+    $("#user-login").click(function () {
+        $.post({
+            url:'login',
+            dataType:'json',
+            data:{
+                email:$("#name").val(),
+                pwd:$("#pwd").val()
+            },
+            success:function (data) {
+                window.location.href="/index";
+            },
+            fail:function () {
+
+            }
+        })
+    })
+})
+
