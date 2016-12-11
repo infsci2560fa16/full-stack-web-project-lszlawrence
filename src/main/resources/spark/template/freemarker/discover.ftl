@@ -30,9 +30,15 @@
                 <div>
                     <div class="row">
                         ${image1}
+                        ${image2}
+                        ${image3}
+                        ${image4}
                     </div>
                     <div class="row">
                         ${image0}
+                        ${image5}
+                        ${image6}
+                        ${image7}
                     </div>
                     <script src="js/myScript.js"></script>
                 </div>
