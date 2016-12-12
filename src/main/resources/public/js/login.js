@@ -1,7 +1,8 @@
 
 
 $(document).ready(function () {
-    $("#user-login").click(function () {
+    $("#user-login").click(function(e) {
+        e.preventDefault();
         $.ajax({
             url:'/login',
             type:'POST',
@@ -20,3 +21,4 @@ $(document).ready(function () {
         });
     });
 });
+
