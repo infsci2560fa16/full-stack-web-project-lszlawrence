@@ -84,7 +84,7 @@ public class Main {
 
         //login action
         post("/login", (request, response) -> {
-            String email = request.queryParams("email");
+            String email = request.queryParams("name");
             String pwd = request.queryParams("pwd");
             HashMap<String, Object> attribute = new HashMap<>();
             Connection conn = null;
@@ -96,8 +96,9 @@ public class Main {
                 ResultSet resultSet = stmt.executeQuery(select);
                 while (resultSet.next()) {
                     String pass = resultSet.getString("password");
+                    String name = resultSet.getString("name");
                     if (pass.equals(pwd)) {
-                        session.attribute("email", resultSet.getString("name"));
+                        session.attribute("email", name);
                         session.attribute("pwd", pwd);
                         response.status(200);
                     } else {
