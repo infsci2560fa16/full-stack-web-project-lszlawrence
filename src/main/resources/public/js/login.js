@@ -6,7 +6,7 @@ $(document).ready(function () {
             type:'POST',
             dataType:'json',
             data:{
-                email:$("#name").val(),
+                name:$("#name").val(),
                 pwd:$("#pwd").val()
             },
             success:function (data) {

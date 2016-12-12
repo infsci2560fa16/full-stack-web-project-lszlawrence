@@ -21,7 +21,7 @@ public class Main {
     public static void main(String[] args) {
 
         Gson gson = new Gson();
-        port(Integer.valueOf(System.getenv("PORT")));
+    //    port(Integer.valueOf(System.getenv("PORT")));
         staticFileLocation("/public");
 
         get("/hello", (req, res) -> "Hello World");
@@ -97,7 +97,7 @@ public class Main {
                 while (resultSet.next()) {
                     String pass = resultSet.getString("password");
                     if (pass.equals(pwd)) {
-                        session.attribute("email", email);
+                        session.attribute("email", resultSet.getString("name"));
                         session.attribute("pwd", pwd);
                         response.status(200);
                     } else {
@@ -138,7 +138,7 @@ public class Main {
             try {
                 response.type("text/xml");
                 try {
-                    BufferedReader bufferedReader = new BufferedReader(new FileReader("src/main/resources/public/xml/users.xml"));
+                    BufferedReader bufferedReader = new BufferedReader(new FileReader("xml/users.xml"));
                     String line;
                     StringBuilder xml = new StringBuilder();
                     while ((line = bufferedReader.readLine()) != null) {
