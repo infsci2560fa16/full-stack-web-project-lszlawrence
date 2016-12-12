@@ -99,7 +99,7 @@ public class Main {
                     if (pass.equals(pwd)) {
                         session.attribute("email", email);
                         session.attribute("pwd", pwd);
-                        response.status(200);
+                        //response.status(200);
                     } else {
                         response.status(409);
                         attribute.put("message", "wrong credentials");
