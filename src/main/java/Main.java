@@ -84,7 +84,7 @@ public class Main {
 
         //login action
         post("/login", (request, response) -> {
-            String email = request.queryParams("name");
+            String email = request.queryParams("email");
             String pwd = request.queryParams("pwd");
             HashMap<String, Object> attribute = new HashMap<>();
             Connection conn = null;
@@ -96,9 +96,8 @@ public class Main {
                 ResultSet resultSet = stmt.executeQuery(select);
                 while (resultSet.next()) {
                     String pass = resultSet.getString("password");
-                    String name = resultSet.getString("name");
                     if (pass.equals(pwd)) {
-                        session.attribute("email", name);
+                        session.attribute("email", email);
                         session.attribute("pwd", pwd);
                         response.status(200);
                     } else {
@@ -139,7 +138,7 @@ public class Main {
             try {
                 response.type("text/xml");
                 try {
-                    BufferedReader bufferedReader = new BufferedReader(new FileReader("xml/users.xml"));
+                    BufferedReader bufferedReader = new BufferedReader(new FileReader("src/main/resources/public/xml/users.xml"));
                     String line;
                     StringBuilder xml = new StringBuilder();
                     while ((line = bufferedReader.readLine()) != null) {

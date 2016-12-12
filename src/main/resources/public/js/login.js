@@ -1,4 +1,5 @@
 
+
 $(document).ready(function () {
     $("#user-login").click(function () {
         $.ajax({
@@ -6,7 +7,7 @@ $(document).ready(function () {
             type:'POST',
             dataType:'json',
             data:{
-                name:$("#name").val(),
+                email:$("#name").val(),
                 pwd:$("#pwd").val()
             },
             success:function (data) {
