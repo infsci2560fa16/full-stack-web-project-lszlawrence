@@ -11,6 +11,7 @@ $(document).ready(function () {
                 pwd:$("#pwd").val()
             },
             success:function (data) {
+                console.log(1);
                 window.location.href="/index";
             },
             fail:function () {
