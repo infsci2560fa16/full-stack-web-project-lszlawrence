@@ -37,14 +37,14 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="99" column="76" selection-start-line="99" selection-start-column="76" selection-end-line="99" selection-end-column="76" />
+            <state relative-caret-position="344">
+              <caret line="99" column="56" selection-start-line="99" selection-start-column="51" selection-end-line="99" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4603#4610#0" expanded="true" />
-                <marker date="1481520906000" expanded="true" signature="958:983" ph="SELECT * FRO... photos" />
-                <marker date="1481520906000" expanded="true" signature="3535:3583" ph="SELECT * FRO... users" />
-                <marker date="1481520906000" expanded="true" signature="4850:4882" ph="SELECT * FRO... users" />
+                <element signature="e#4581#4588#0" expanded="true" />
+                <marker date="1481521033000" expanded="true" signature="958:983" ph="SELECT * FRO... photos" />
+                <marker date="1481521033000" expanded="true" signature="3535:3583" ph="SELECT * FRO... users" />
+                <marker date="1481521033000" expanded="true" signature="4828:4860" ph="SELECT * FRO... users" />
               </folding>
             </state>
           </provider>
@@ -147,7 +147,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="313" />
+    <option name="y" value="146" />
     <option name="width" value="1440" />
     <option name="height" value="842" />
   </component>
@@ -954,15 +955,15 @@
       <workItem from="1481243918382" duration="6099000" />
       <workItem from="1481266037532" duration="39958000" />
       <workItem from="1481438807672" duration="4000" />
-      <workItem from="1481497136674" duration="9937000" />
+      <workItem from="1481497136674" duration="10045000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104457000" />
+    <option name="totallyTimeSpent" value="104565000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="842" extended-state="6" />
+    <frame x="313" y="146" width="1440" height="842" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1320,14 +1321,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="99" column="76" selection-start-line="99" selection-start-column="76" selection-end-line="99" selection-end-column="76" />
+        <state relative-caret-position="344">
+          <caret line="99" column="56" selection-start-line="99" selection-start-column="51" selection-end-line="99" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4603#4610#0" expanded="true" />
-            <marker date="1481520906000" expanded="true" signature="958:983" ph="SELECT * FRO... photos" />
-            <marker date="1481520906000" expanded="true" signature="3535:3583" ph="SELECT * FRO... users" />
-            <marker date="1481520906000" expanded="true" signature="4850:4882" ph="SELECT * FRO... users" />
+            <element signature="e#4581#4588#0" expanded="true" />
+            <marker date="1481521033000" expanded="true" signature="958:983" ph="SELECT * FRO... photos" />
+            <marker date="1481521033000" expanded="true" signature="3535:3583" ph="SELECT * FRO... users" />
+            <marker date="1481521033000" expanded="true" signature="4828:4860" ph="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>
