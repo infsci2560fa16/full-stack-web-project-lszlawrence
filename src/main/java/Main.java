@@ -97,7 +97,7 @@ public class Main {
                 while (resultSet.next()) {
                     String pass = resultSet.getString("password");
                     if (pass.equals(pwd)) {
-                        session.attribute("email", resultSet.getString("name"));
+                        session.attribute("email", email);
                         session.attribute("pwd", pwd);
                         //response.status(200);
                     } else {
