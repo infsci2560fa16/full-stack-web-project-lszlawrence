@@ -3,7 +3,7 @@
 $(document).ready(function () {
     $("#user-login").click(function () {
         $.ajax({
-            url:'login',
+            url:'/login',
             type:'POST',
             dataType:'json',
             data:{
