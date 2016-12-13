@@ -29,10 +29,18 @@ $('#showpic').click(function(e){
 });
 
 $('#showusers').click(function(e){
-   $.getJSON("/1",function(data){
+  /* $.getJSON("/1",function(data){
         $("#showPage2").append(
             "<h1>" + data.id + "</h1>"+
                 "\t<h1>" + data.email + "</h1>"
         );
-   });
+   });*/
+
+  $.ajax("/1",{
+      method:"GET",
+      dataType: "json",
+      success:function(result){
+          console.log(result.id);
+      }
+  });
 });
