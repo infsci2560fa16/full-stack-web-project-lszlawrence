@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" >
+
+    <xs:element name="subscription">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="photos" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="photosId" type="UUID" />
+                            <xs:element name="userId" type="xs:int" />
+                            <xs:element name="date" type="xs:string" />
+                            <xs:element name="address" type="xs:string" />
+                            <xs:element name="category" type="xs:string" />
+                            <xs:element name="introMessage" type="xs:string" />
+                            <xs:element name="recentComment" type="xs:string" />
+                            <xs:element name="devices" type="xs:string" />
+                            <xs:element name="filters" type="xs:string" />
+                            <xs:element name="lens" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="UUID">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[a-zA-Z0-9-]{36}"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

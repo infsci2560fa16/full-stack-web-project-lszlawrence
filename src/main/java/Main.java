@@ -4,8 +4,6 @@ import spark.ModelAndView;
 import spark.Session;
 import spark.template.freemarker.FreeMarkerEngine;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -21,10 +19,19 @@ public class Main {
     public static void main(String[] args) {
 
         Gson gson = new Gson();
-        port(Integer.valueOf(System.getenv("PORT")));
+        //port(Integer.valueOf(System.getenv("PORT")));
         staticFileLocation("/public");
 
         get("/hello", (req, res) -> "Hello World");
+
+        get("/show", (request, response) -> {
+
+            HashMap<String, Object> attributes = new HashMap<>();
+            response.type("application/xml");
+            image subscription = new image("img/2.jpg");
+            XmlUtils xu = new XmlUtils();
+            return xu.buildPlaceXML(subscription);
+        });
 
         get("/discover", (request, response) -> {
             Map<String, Object> attribute = new HashMap<>();
@@ -133,26 +140,10 @@ public class Main {
             }
         }, gson::toJson);
 
-        //get xml all users
-        get("/users", (request, response) -> {
-            try {
-                response.type("text/xml");
-                try {
-                    BufferedReader bufferedReader = new BufferedReader(new FileReader("src/main/resources/public/xml/users.xml"));
-                    String line;
-                    StringBuilder xml = new StringBuilder();
-                    while ((line = bufferedReader.readLine()) != null) {
-                        xml.append(line.trim());
-                    }
-                    return xml.toString();
-                } catch (Exception e) {
-                    return e.toString();
-                }
-            } catch (Exception e) {
-                return e;
-            }
-        });
+        //get images
 
-
+       // image subscription = new image("img/2.jpg");
+        //XmlUtils xu = new XmlUtils();
+        //System.out.println(xu.buildPlaceXML(subscription));
     }
 }

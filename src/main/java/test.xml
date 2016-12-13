@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<subscription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <photos>
+        <photosId>0756d162-8469-47f7-8bea-6a0596e65642</photosId>
+        <userId>1</userId>
+        <date>09 08 2016</date>
+        <address>img/2.jpg</address>
+        <category>view</category>
+        <introMessage>favour</introMessage>
+        <recentComment>nice</recentComment>
+        <devices>canon</devices>
+        <filters>fashion</filters>
+        <lens>35mm</lens>
+    </photos>
+</subscription>
