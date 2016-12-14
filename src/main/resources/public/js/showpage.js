@@ -40,7 +40,9 @@ $('#showusers').click(function(e){
       method:"GET",
       dataType: "json",
       success:function(result){
-          console.log(result.id);
+          $.each(result, function(item){
+              console.log(item.id);
+          });
       }
   });
 });
