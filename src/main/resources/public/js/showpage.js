@@ -39,10 +39,10 @@ $('#showusers').click(function(e){
   $.ajax("/1",{
       method:"GET",
       dataType: "json",
-      success:function(result){
-          $.each(result, function(item){
-              console.log(item.id);
-          });
+              success:function(result){
+              $.each(result, function(item){
+                  console.log(item.email);
+              });
       }
   });
 });
