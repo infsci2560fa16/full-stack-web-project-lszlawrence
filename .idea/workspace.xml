@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="95f8c24c-4c2e-4ab6-bf31-d5959b842e4a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/public/js/showpage.js" afterPath="$PROJECT_DIR$/src/main/resources/public/js/showpage.js" />
     </list>
     <ignored path="full-stack-web-project-lszlawrence.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,7 +34,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="507">
@@ -58,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="showpage.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="showpage.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/showpage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="734">
-              <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+            <state relative-caret-position="271">
+              <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -173,7 +174,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="309" />
+    <option name="x" value="86" />
     <option name="y" value="23" />
     <option name="width" value="1057" />
     <option name="height" value="841" />
@@ -985,15 +986,15 @@
       <workItem from="1481497136674" duration="10997000" />
       <workItem from="1481573850414" duration="40000" />
       <workItem from="1481575067330" duration="710000" />
-      <workItem from="1481582324396" duration="19256000" />
+      <workItem from="1481582324396" duration="19870000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125523000" />
+    <option name="totallyTimeSpent" value="126137000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="309" y="23" width="1057" height="841" extended-state="0" />
+    <frame x="86" y="23" width="1057" height="841" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1333,14 +1334,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/showpage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="734">
-          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="507">
@@ -1351,6 +1344,14 @@
             <marker date="1481669281000" expanded="true" signature="3799:3847" ph="SELECT * FRO... users" />
             <marker date="1481669281000" expanded="true" signature="5114:5146" ph="SELECT * FRO... users" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/showpage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>

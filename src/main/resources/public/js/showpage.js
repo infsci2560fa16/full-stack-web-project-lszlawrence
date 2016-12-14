@@ -28,21 +28,12 @@ $('#showpic').click(function(e){
     });
 });
 
-$('#showusers').click(function(e){
-  /* $.getJSON("/1",function(data){
+$('#showusers').click(function(e) {
+    $.getJSON("/1", function (data) {
         $("#showPage2").append(
-            "<h1>" + data.id + "</h1>"+
-                "\t<h1>" + data.email + "</h1>"
+            "<h1>" + data[0].id + "</h1>" +
+            "\t<h1>" + data[0].email + "</h1>"
         );
-   });*/
-
-  $.ajax("/1",{
-      method:"GET",
-      dataType: "json",
-              success:function(result){
-              $.each(result, function(item){
-                  console.log(item.email);
-              });
-      }
-  });
+    });
 });
+
